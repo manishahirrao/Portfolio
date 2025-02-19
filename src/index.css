@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body{
+    background-color: black;
+    color: white;
+}
+#Navbar{
+    background-image: "bg.avif";
+}
+a.active hr{
+display: block;
+}
+a.active p{
+    color: #2268f5;
+}
