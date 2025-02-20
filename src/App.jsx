@@ -15,14 +15,16 @@ function App() {
     <>
       <div className="px-5 md:px-[5vw] lg:px-[7vw] ">
         <Navbar />
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Experience" element={<Experience />} />
           <Route path="/Skills" element={<Skills />} />
-        </Routes>
+        </Routes> */}
+        <Home />
+        <About />
         <Footer />
       </div>
     </>

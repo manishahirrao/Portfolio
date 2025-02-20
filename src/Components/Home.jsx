@@ -11,12 +11,11 @@ const Home = () => {
   return (
     <div className="mt-12  flex justify-between items-center">
       <div className="">
-        <p className="text-3xl font-semibold">Hello it's Me</p>
+        <p className="text-3xl font-semibold pb-2">Hello it's Me</p>
         <span className="font-extrabold text-5xl  ">Manish Ahirrao</span>
-        <p className="text-3xl font-semibold">
-          And I'm a{" "}
-          <span>
-            {" "}
+        <p className="text-3xl font-semibold pt-2 ">
+          And I'm a
+          <span className="pl-2">
             <ReactTyped
               className="text-blue-400"
               strings={["DEVELOPER", "FREELANCER", "CODER"]}

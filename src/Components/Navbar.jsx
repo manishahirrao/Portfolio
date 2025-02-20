@@ -40,18 +40,18 @@ const Navbar = () => {
       <div>
         <img className="h-[80px] w-[150px]" src={ma} alt="Logo" />
       </div>
-      <div className="flex items-center gap-6 text-2xl font-medium">
+      <ul className="flex items-center gap-6 text-2xl font-medium">
         {item.map((items) => (
-          <NavLink
+          <li
             to={items.to}
-            className="cursor-pointer hover:scale-105"
+            className="cursor-pointer hover:scale-105 "
             key={items.id}
           >
             <p>{items.text}</p>
             <hr className="h-[4px] bg-blue-600 border-none shadow-md shadow-blue-500 hidden" />
-          </NavLink>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   );
 };
