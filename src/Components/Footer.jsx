@@ -22,7 +22,7 @@ const Footer = () => {
       </div>
       <hr className="text-white h-[5px] w-full my-2" />
       <div className="flex items-center justify-center pb-2 ">
-        <p>Copyright 2025 &copy; MA.All rights reserved</p>
+        <p>Copyright 2025 &copy; manishahirrao.All rights reserved</p>
       </div>
     </>
   );

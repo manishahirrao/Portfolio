@@ -6,7 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Contact from "./Components/Contact";
-import Projects from "./Components/Contact";
+import Projects from "./Components/Projects";
 import Experience from "./Components/Experience";
 import Skills from "./Components/Skills";
 
@@ -25,6 +25,9 @@ function App() {
         </Routes> */}
         <Home />
         <About />
+        <Skills />
+        <Projects />
+        <Contact />
         <Footer />
       </div>
     </>
